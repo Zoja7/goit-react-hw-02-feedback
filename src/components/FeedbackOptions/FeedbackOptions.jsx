@@ -1,7 +1,8 @@
+import css from './FeedbackOptions.module.css';
 export default function FeedbackOptions({ onLeaveFeedback }) {
   return (
-    <div>
-      <ul>
+    <div className={css.optionsContainer}>
+      <ul className={css.optionsList}>
         <li>
           <button name="good" type="button" onClick={onLeaveFeedback}>
             Good
