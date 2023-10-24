@@ -15,11 +15,11 @@ export default function Statistics({ feedback, positivePercentage, total }) {
           Bad: <span>{bad}</span>
         </li>
         <li>
-          Total: <span>{total()}</span>
+          Total: <span>{total}</span>
         </li>
         <li>
           {' '}
-          Positive feedback: <span>{positivePercentage()}%</span>
+          Positive feedback: <span>{positivePercentage}%</span>
         </li>
       </ul>
     </div>
